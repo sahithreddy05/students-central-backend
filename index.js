@@ -17,7 +17,7 @@ const orderRoutes=require("./routes/order")
 
 
 // mongoose.connect(process.env.MongoUri,{
-// mongoose.connect("mongodb+srv://auth:nK81ceBSXNTi4GW9@cluster0.j5smh.mongodb.net/mySecondDatabase?retryWrites=true&w=majority",{
+// mongoose.connect("",{
      mongoose.connect("mongodb://localhost:27017/test",{   
     useNewUrlParser: true,
     useUnifiedTopology: true,
